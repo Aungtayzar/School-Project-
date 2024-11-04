@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="icon" type="image/logo" href="./assets/images/logo.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- start nav bar  -->
+    <nav class="navbar">
+
+        <a href="./homepage.html" class="logo">
+            <img src="./assets/images/logo.png" alt="logo">
+            <span class="logoname">STANDING DESK</span>    
+        </a>    
+
+        <input type="checkbox" id="toggle-button" class="toggle-button">
+        <label for="toggle-button" class="toggle-label">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        
+        
+        <div class="nav-bar">
+            <ul class="navbar-nav">
+                <li>
+                    <form action="#" >
+                        <input type="search" class="searchbar" placeholder="Search here....">
+                        <img src="./assets/search.png" class="searchicon" alt="search">
+                    </form>
+                </li>
+                <li><a href="./homepage.html" class="menuitem">Home</a></li>
+                <li><a href="#about" class="menuitem">About Us</a></li>
+                <li><a href="./risingdesk.html" class="menuitem">Rising Desks</a></li>
+                <li><a href="./healthbenefit.html" class="menuitem">Health Benefits</a></li>
+                <li><a href="./contact.html" class="menuitem">Contact Us</a></li>
+                <li><a href="./basket.html" class="menuitem">Basket</a></li>
+                <li>
+                    <a href="./account.html" class="proicon">
+                    <img src="./assets/images/user/user1.jpg" alt="user1" class="profile">
+                    </a>
+                    
+                    <ul class="dropdown">
+                        <li><a href="#" class="dropdown-item">Sign Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- end nav bar  -->
+
+        <!--Start cart items details  -->
+
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th class="cart-title">Subtotal</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./assets/images/officedesk2.png" alt="officedesk2">
+                            <div>
+                                <p>Office Desk</p>
+                                <small>Size:48" stright</small>
+                                <br>
+                                <small>Color: wooden</small>
+                                <br>
+                                <small>Price: $399.00</small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$399.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./assets/images/gaming.jpg" alt="gaming">
+                            <div>
+                                <p>MOTPK Small Gaming Desk</p>
+                                <small>Size:31 Inch</small>
+                                <br>
+                                <small>Color: Black</small>
+                                <br>
+                                <small>Price: $215.00</small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="2" min="1"></td>
+                    <td>$430.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./assets/images/floordesk.jpg" alt="floordesk">
+                            <div>
+                                <p>SAIJI Laptop Bed Tray Desk</p>
+                                <small>Size:20.5 x 11.8 In</small>
+                                <br>
+                                <small>Color: Black</small>
+                                <br>
+                                <small>Price: $55.00</small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$55.00</td>
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$884.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tax</td>
+                        <td>$35.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Total</td>
+                        <td>$919.00</td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="checkout-button">Proceed to Checkout</button></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="continue-shopping-container">
+                <a href="./risingdesk.html" class="continue-shopping-button">Continue Shopping</a>
+            </div>
+        </div>
+
+        <!--End cart items details  -->
+
+
+
+
+
+
+    <!-- Start Footer Section  -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company <span class="underline"><span></span></span></h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Rising Desk</a></li>
+                        <li><a href="#">Health Benefit</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info <span class="underline"><span></span></span></h4>
+                    <ul>
+                        <li><a href="#">aungtay@gmail.com</a></li>
+                        <li><a href="#">+95 9785603866</a></li>
+                        <li><a href="#">No.31 Sanchaung Street</a></li>
+                        <li><a href="#">Yangon</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>follow us <span class="underline"><span></span></span></h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><img src="./assets/facebook.png" alt="facebook"></a>
+                        <a href="https://mm.linkedin.com/"><img src="./assets/linkin.png" alt="linkin"></a>
+                        <a href="https://www.instagram.com/"><img src="./assets/instagram.png" alt="instagram"></a>
+                        <a href="https://discord.com/"><img src="./assets/discord.png" alt="discord"></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2024 Copyright,Inc.All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- End Footer Section  -->
+
+
+
+    
+</body>
+</html>
